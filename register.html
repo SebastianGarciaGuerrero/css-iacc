@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/register.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="index.html" method="get">
+            <h2>Regístrate</h2>
+
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+
+            <label for="tipo_documento">Tipo de documento:</label>
+            <select id="tipo_documento" name="tipo_documento" required>
+                <option value>Seleccione...</option>
+                <option value="dni">DNI</option>
+                <option value="rut">RUT</option>
+                <option value="cedula">Cédula</option>
+                <option value="pasaporte">Pasaporte</option>
+            </select>
+            <br><br>
+
+            <label for="numero_documento">Número de documento:</label>
+            <input type="text" id="numero_documento" name="numero_documento"
+                required>
+            <br><br>
+
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"
+                required>
+            <br><br>
+
+            <div class="sexo">
+                <label for="sexo">Sexo:</label>
+                <div>
+                    <input type="radio" id="masculino" name="sexo"
+                        value="masculino" required>
+                    <label for="masculino">Masculino</label>
+
+                    <input type="radio" id="femenino" name="sexo"
+                        value="femenino">
+                    <label for="femenino">Femenino</label>
+
+                    <input type="radio" id="otro" name="sexo" value="otro">
+                    <label for="otro">Otro</label>
+                </div>
+            </div>
+
+            <br><br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="telefono">Teléfono móvil:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <br><br>
+
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"
+                placeholder="Escribe aquí tus comentarios..."></textarea>
+            <br><br>
+
+            <div class="container">
+                <button type="submit">Registrarse</button>
+                <p>¿Ya tienes una cuenta?</p>
+                <a href="/acceso.html">Inicia Sesión</a>
+            </div>
+        </form>
+
+    </body>
+</html>

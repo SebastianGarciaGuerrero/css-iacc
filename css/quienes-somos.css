@@ -1,0 +1,15 @@
+#quienes-somos {
+  background-color: #2f4beb;
+  padding: 1.5em;
+  border-radius: 8px;
+}
+
+#quienes-somos p {
+  color: #14102c; /* tono más oscuro */
+  font-family: "Georgia", serif;
+  background-color: #5662a8;
+}
+
+#quienes-somos h2 {
+  color: #14102c;
+}

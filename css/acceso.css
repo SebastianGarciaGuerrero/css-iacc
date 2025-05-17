@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+}
+
+form {
+    background-color: #87d682;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(1, 33, 13);
+    padding: 1.5em;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #070404;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1em;
+    box-shadow: 10px 5px 5px rgb(1, 33, 13);
+}
