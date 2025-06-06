@@ -1,263 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>Organización EcoVida</title>
-    <link rel="stylesheet" href="./css/main.css">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organización EcoVida</title>
+  <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
+  <header>
+    <h1>Organización sin fines de lucro: <strong>EcoVida</strong></h1>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Inicio</a></li>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#temas">Temas de Interés</a></li>
+        <li><a href="#formulario">Contacto</a></li>
+        <li><a href="#imagenes">Imagenes</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <header>
-        <h1>Organización sin fines de lucro: <strong>EcoVida</strong></h1>        
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#actividades">Actividades</a></li>
-                <li><a href="#eventos">Eventos</a></li>
-                <li><a href="#temas">Temas de Interés</a></li>
-                <li><a href="/acceso.html">Login</a></li>
-                <li><a href="/register.html">Crea tu cuenta</a></li>
-            </ul>
-        </nav>
-
-      <section id="quienes-somos">
-        <h2>Quienes Somos</h2>
-        <div
-        style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-        <div style="flex: 1; min-width: 300px;">
-          <p><strong>Misión:</strong> Promover la conservación del medio ambiente a través de actividades educativas y de sensibilización.</p>
+  <main class="grid-container">
+    <section id="quienes-somos" class="grid-full">
+      <h2>Quiénes Somos</h2>
+      <div class="content-grid">
+        <div>
+          <p><strong>Misión:</strong> Promover la conservación del medio ambiente a través de actividades educativas y
+            de sensibilización.</p>
         </div>
-        <div style="flex: 1; min-width: 300px;">         
+        <div>
           <p><strong>Visión:</strong> Ser un referente en la educación ambiental y la acción climática local.</p>
-        </div>       
-        </div>        
-      </section>        
-    </header>
+        </div>
+      </div>
+    </section>
 
     <section id="actividades">
-        <h2>Actividades Realizadas</h2>
-        <ul>
-            <li><strong>Reforestación comunitaria:</strong> Jornadas de plantación de árboles con voluntarios.</li>
-            <li><strong>Charlas escolares:</strong> Conversatorios en colegios sobre el cambio climático y acciones sostenibles.</li>
-            <li><strong>Campañas de reciclaje:</strong> Actividades de recolección de residuos con separación y reutilización.</li>
-        </ul>
+      <h2>Actividades Realizadas</h2>
+      <ul>
+        <li><strong>Reforestación comunitaria:</strong> Jornadas de plantación de árboles con voluntarios.</li>
+        <li><strong>Charlas escolares:</strong> Conversatorios en colegios sobre el cambio climático y acciones
+          sostenibles.</li>
+        <li><strong>Campañas de reciclaje:</strong> Actividades de recolección de residuos con separación y
+          reutilización.</li>
+      </ul>
     </section>
 
     <section id="eventos">
-      <h2 style="color: darkblue;">Eventos Planificados</h2>
-      <p><strong>Nombre:</strong> Feria Verde 2025<br>
-        <strong>Lugar:</strong> Parque Central, Ciudad Verde<br>
-        <strong>Fecha:</strong> 22 de mayo de 2025<br>
-        <strong>Hora:</strong> 10:00 AM
-      </p>
-
-      <p><strong>Nombre:</strong> Ciclovía Ambiental<br>
-        <strong>Lugar:</strong> Avenida Principal, Zona Eco<br>
-        <strong>Fecha:</strong> 5 de junio de 2025<br>
-        <strong>Hora:</strong> 8:30 AM
-      </p>
+      <h2>Próximos Eventos</h2>
+      <div class="evento">
+        <p><strong>Nombre:</strong> Feria Verde 2025<br>
+          <strong>Lugar:</strong> Parque Central, Ciudad Verde<br>
+          <strong>Fecha:</strong> 22 de mayo de 2025<br>
+          <strong>Hora:</strong> 10:00 AM
+        </p>
+      </div>
+      <div class="evento">
+        <p><strong>Nombre:</strong> Ciclovía Ambiental<br>
+          <strong>Lugar:</strong> Avenida Principal, Zona Eco<br>
+          <strong>Fecha:</strong> 5 de junio de 2025<br>
+          <strong>Hora:</strong> 8:30 AM
+        </p>
+      </div>
     </section>
 
     <section id="temas">
-      <h2 style="color: green;">Temas de Interés</h2>
-      <h3>Computación Planetaria</h3>
-      <button onclick="document.getElementById('bg-music').play()" 
-        style="background-color: green; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin: 20px;">
-          ▶️ Reproducir: Supernature - Cerrone
-      </button>
-      <button onclick="document.getElementById('bg-music').pause()" style="background-color: green; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin: 20px;">
-        ⏸️ Pause
-      </button>
-      <div
-        style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-        <div style="flex: 1; min-width: 300px;">
-          <p>
-            El concepto de cambio climático, según Benjamin Bratton, no es
-            simplemente una observación ambiental,
-            sino una contribución intelectual de la <a href="https://research.antikythera.org/" target="_blank">Computación Planetaria</a>: un sistema global de
-            sensores, satélites, modelos climáticos y
-            redes de datos que hacen visible lo invisible. Es gracias a esta
-            infraestructura tecnológica que hoy podemos
-            comprender la magnitud y complejidad del calentamiento global,
-            transformando lo que antes era percepción local en una conciencia
-            planetaria interconectada.
-          </p>
-        </br>
-        <p> Es fundamental comprender cómo la <a href="https://research.antikythera.org/ " target="_blank">Computación Planetaria</a> no solo nos permite medir el impacto ambiental, 
-          sino también transformar nuestra forma de pensar y de actuar como especie. Esta infraestructura tecnológica
-           —hecha de sensores, satélites y redes globales de datos— no solo revela los efectos de nuestra actividad 
-           sobre el planeta, sino que también redefine nuestra agencia. Al visualizar lo que antes era invisible, 
-           entendemos que hemos artificializado vastas capas de la Tierra, y solo al reconocer esta transformación 
-           podemos asumir nuestra responsabilidad. La conciencia de ese impacto no nos paraliza, sino que nos empodera: 
-           nos muestra que es posible redirigir nuestras capacidades técnicas hacia un cuidado activo del planeta. </p>
+      <h2>Temas de Interés</h2>
+      <article>
+        <h3>Computación Planetaria</h3>
+        <div class="media-controls">
+          <button onclick="document.getElementById('bg-music').play()">
+            ▶️ Reproducir: Supernature - Cerrone
+          </button>
+          <button onclick="document.getElementById('bg-music').pause()">
+            ⏸️ Pausar
+          </button>
         </div>
-        <div style="flex: 1; min-width: 300px;">
-          <img
-            src="https://imagenes.20minutos.es/uploads/imagenes/2021/05/10/basura-espacial.gif"
-            alt="Basura espacial" style="max-width: 100%; border-radius: 8px;">
+        <div class="content-pair">
+          <div class="text-content">
+            <p>El concepto de cambio climático, según Benjamin Bratton, no es simplemente una observación ambiental,
+              sino una contribución intelectual de la <a href="https://research.antikythera.org/"
+                target="_blank">Computación Planetaria</a>: un sistema global de sensores, satélites, modelos climáticos
+              y redes de datos que hacen visible lo invisible.</p>
+          </div>
+          <div class="media-content">
+            <img src="https://imagenes.20minutos.es/uploads/imagenes/2021/05/10/basura-espacial.gif"
+              alt="Basura espacial">
+          </div>
         </div>
-      </div>
+      </article>
+    </section>
 
-      <br>
-
-      <div
-        style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-        <div style="flex: 1; min-width: 300px;">
-          <iframe width="100%" height="315"
-            src="https://www.youtube.com/embed/DlPMV5LJc-I?si=VC9ji5ntImtNPcrA&amp;start=1502"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-          </iframe>
-        </div>
-
-        <div style="flex: 1; min-width: 300px;">
-          <p> En sus inicios, el Test de Turing proponía que una máquina podía considerarse 
-            inteligente si lograba imitar tan bien a un humano que resultara indistinguible. 
-            Sin embargo, hoy esa lógica se ha invertido: en un mundo saturado de modelos de 
-            lenguaje e interfaces conversacionales, parecer humano es apenas el punto de partida. 
-            Lo preocupante ahora no es solo si una inteligencia artificial puede imitar el 
-            pensamiento humano, sino si debería hacerlo. Considerando nuestra historia 
-            como especie —marcada por conflictos, desigualdades y crisis ambientales—, 
-            cabe preguntarse si replicar nuestros valores, metas y formas de razonar es 
-            realmente el ideal hacia el cual deberíamos orientar el desarrollo de estas 
-            tecnologías. Tal vez existe un territorio aún inexplorado, donde la inteligencia artificial 
-            —junto a otras formas de inteligencia no humana como la animal, vegetal o incluso la de 
-            los insectos— pueda abrir nuevas vías de pensamiento y provocar verdaderos desplazamientos 
-            copernicanos en nuestra forma de entender y habitar el mundo. </p>
-          
-        </div>
-      </div>
-
-      <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-        <div style="flex: 1; min-width: 300px;">
-          <p>
-            Benjamin Bratton plantea que la Tierra, a lo largo de su evolución,
-            produjo el cerebro humano: una estructura capaz de pensar,
-            reflexionar y
-            volverse consciente de sí misma y del planeta que habita. Pero no se
-            detiene ahí: al manipular rocas —fundirlas, moldearlas, hacerlas
-            conducir electricidad— creamos computadoras, extendiendo esa
-            conciencia
-            hacia una inteligencia sintética que también es capaz de pensar.
-            Esta
-            continuidad entre materia geológica, biológica y técnica revela que
-            el
-            pensamiento y la tecnología no son ajenos a la Tierra, sino
-            expresiones
-            de su propio proceso evolutivo. Entender esto no solo transforma
-            cómo
-            nos vemos a nosotros mismos, sino que nos invita a asumir una
-            responsabilidad activa en el cuidado del planeta, como una forma de
-            cuidar ese mismo proceso que nos dio origen.
-          </p>
-        </div>
-        <div style="flex: 1; min-width: 300px;">
-          <img 
-          src="https://amautas.com/wp-content/uploads/2023/06/C021_NEUROCIENCIA-min-1536x864.jpg" 
-          alt="cerebro neurociencia" 
-          style="max-width: 100%; border-radius: 8px;">
-        </div> 
-      </div>
-
-      <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-        <div style="flex: 1; min-width: 300px;">
-          <img
-          src="./img/evolucion-bratton.jpeg"
-          alt="grafico de evolucion bratton"
-          style="max-width: 100%; border-radius: 8px;"
-          >
-
-        </div>
-        <div style="flex: 1; min-width: 300px;">
-          <p>En este gráfico de una síntesis poderosa sobre la evolución humana como una serie de giros 
-            paradigmáticos que han redefinido no solo lo que pensamos, sino cómo pensamos el futuro se puede deducir que durante ese 
-            trayecto, hemos llegado a un nuevo umbral: la inteligencia artificial, descrita por Bratton como 
-            "lo artificial de lo artificial", pues surge de la escritura, que surge como una tecnología del lenguaje 
-            simbólico. Esta idea revela que la tecnología no es un elemento ajeno a nosotros, sino una continuidad 
-            evolutiva —una extensión de nuestra propia historia como especie. Desde la litosfera que dio origen a 
-            la biósfera, y esta a la tecnosfera, ahora nos encontramos construyendo una noosfera, una esfera del 
-            pensamiento planetario. Parafraseando Stanisław Lem, tal vez los humanos no seamos el fin, sino solo una fase 
-            en la historia de la tecnología. No existe una separación real entre humanidad, tecnología 
-            y planeta; somos parte de un mismo proceso. Pensarnos a nosotros mismos como artificiales no es negativo, 
-            sino una invitación a imaginar cómo terraformarnos y transformar el planeta para hacer de este mundo —y 
-            de nosotros mismos— un lugar habitable para el futuro que aún no ha llegado y que aun no está determinado.</p>
-        </div>
+    <section id="videos-relacionados">
+      <h2>Videos Relacionados</h2>
+      <div class="video-grid">
+        <iframe src="https://www.youtube.com/embed/DlPMV5LJc-I?si=VC9ji5ntImtNPcrA&amp;start=1502"
+          title="YouTube video player" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/rubRpPgbY_w?si=lykfduw8Gj7OUoUu" title="YouTube video player"
+          allowfullscreen></iframe>
       </div>
     </section>
 
-    <section id="video-relacionados">
-      <h2>Videos Relacionados</h2>
-    
-      <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-        <div style="flex: 1; min-width: 300px;">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/Uf7Pn8GB_jI?si=U6cguvxTjO-iub2b"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-          </iframe>
-        </div>
-    
-        <div style="flex: 1; min-width: 300px;">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/rubRpPgbY_w?si=lykfduw8Gj7OUoUu"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-          </iframe>
-        </div>
+    <section id="imagenes" class="grid-full">
+      <h2>Imagenes de interés</h2>
+      <div class="galeria-flex">
+        <img
+          src="https://imagenes.elpais.com/resizer/v2/CGP425DKZRHSFMYDFXI36MRKEY.jpg?auth=347f0795fcb7f6e03949e5e41d624ac883cc6d9d6ff63f4d814c23ce18ee9f1d&width=980"
+          alt="planta solar">
+        <img src="https://www.foronuclear.org/wp-content/uploads/2013/10/planta-nuclear-atardecer-854x465.jpg"
+          alt="energia nuclear">
+        <img src="https://www.fundacionaquae.org/wp-content/uploads/2020/05/ecolog%C3%ADa-urbana2-2.jpg"
+          alt="Ecología urbana">
+        <img src="https://www.ecoticias.com/wp-content/uploads/2022/01/ROXU_urbanistico2ssss.jpg"
+          alt="urbanismo-ecologico">
       </div>
-    
-      <br>
-    
-      <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-        <div style="flex: 1; min-width: 300px;">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/24rPXmWWXek?si=alxHkrsLoIe_64PV"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-          </iframe>
-        </div>
-    
-        <div style="flex: 1; min-width: 300px;">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/_Sl8diqCAFw?si=YmlECNQk7enpqdYB"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-    </section>  
+    </section>
 
-    <footer>
-      <p>&copy; 2025 EcoVida - Todos los derechos reservados.</p>
-      <p>Contacto: contacto@ecovida.org</p>
-      <p>Síguenos en:
-        <a href="#">Facebook</a> |
-        <a href="#">Instagram</a> |
-        <a href="#">Twitter</a>
-      </p>
-    </footer>
-    
-    <audio id="bg-music" loop>
-      <source src="./audio/Cerrone - Supernature (Official Audio).mp3" type="audio/mpeg">
-      Tu navegador no soporta audio.
-    </audio>
-  </body>
+    <section id="formulario" class="grid-full">
+      <h2>Formulario de Contacto</h2>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EcoVida - Todos los derechos reservados.</p>
+    <p>Contacto: contacto@ecovida.org</p>
+    <p>Síguenos en:
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
+
+  <audio id="bg-music" loop>
+    <source src="./audio/Cerrone - Supernature (Official Audio).mp3" type="audio/mpeg">
+    Tu navegador no soporta audio.
+  </audio>
+</body>
+
 </html>
